@@ -1,0 +1,37 @@
+body{background: url('/images/grid_bg.gif'); background-color:#303030; margin: 0 auto; font-family: 'Helvetica'; width: 960px; line-height:100%;}
+h1, h1 a{color: #e5786d; text-shadow: 2px 2px 2px #000; font-family: 'Courier New'; font-weight:900; text-transform:uppercase; font-size:60px; margin: 0; padding-top:25px; padding-bottom:35px; text-decoration: none;}
+.alpha60 {
+}
+header h1{float:left;}
+label {color:#86C6EA}
+#articles {width: 650px; float:left;}
+article {margin-top:0;text-shadow: 2px 2px 2px #000;}
+article h5, article h5 a{margin:0; padding-top:10px; font-family: 'Courier New'; padding-bottom:5px; color:#86c6ea; font-size:25px; text-shadow: 2px 2px 2px #000; text-decoration:none; }
+article p{color:#c0e682; text-shadow: 2px 2px 2px #000; width:600px; }
+#sidebar {float:left; padding-left:10px; color:#fff; width:290px;}
+#sidebar img{float:left; padding-right:8px;}
+span {color:#fff; }
+.shadow{ text-shadow: 2px 2px 2px #000;}
+h1 small{font-size:12px; color:#c0e682}
+pre:before{content: '>'; }
+span.share a{color:#e5786d;}
+pre:hover::before{content: &lt; color:#697b80;}
+pre {padding-top:15px; color:#e5786d; line-height:80% font-family: 'Courier New'; background: rgba(30, 30, 30, 0.6);
+	background: rgb(30, 30, 30);
+	/* ie hax */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+ul#social_links{list-style:none; float:right; margin-right:15px; margin-top:0}
+ul#social_links li{float:left; padding-left: 3px; }
+#about_author{font-size:13px;}
+hr {margin-top:30px; margin-bottom:30px}
+span a{text-decoration:none; color:#fff;}
+a:hover, span.share a:hover{color:#697b80;}
+#search input{background:#000; width:220px; color:#e5786d; text-align:right;}
+footer{clear:both; color: #e5786d; font-size: 11px; width: 960px; text-align: center; padding:20px 10px 20px 10px}
+a {color:#697b80;}
+h6 a{margin:0; padding-top:10px; padding-bottom:5px; color:#86c6ea; font-size:17px; text-shadow: 2px 2px 2px #000; text-decoration:none; }
+p.about_text{font-family: 'Courier New'; line-height:15px; font-size:12px;}
+
+
