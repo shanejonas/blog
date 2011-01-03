@@ -9,7 +9,7 @@ gem 'devise'
 #gem 'mysql'
 # Use unicorn as the web server
 # gem 'unicorn'
-
+gem 'disqus'
 # Deploy with Capistrano
 # gem 'capistrano'
 

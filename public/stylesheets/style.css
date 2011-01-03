@@ -16,20 +16,46 @@ h1 small{font-size:12px; color:#c0e682}
 pre:before{content: '>'; }
 span.share a{color:#e5786d;}
 pre:hover::before{content: &lt; color:#697b80;}
-pre {padding-top:15px; color:#e5786d; line-height:80% font-family: 'Courier New'; background: rgba(30, 30, 30, 0.6);
+pre {	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	color:#e5786d; 
+	line-height:80%; 
+	font-family: 'Courier New'; 
+	background: rgba(30, 30, 30, 0.6);
 	background: rgb(30, 30, 30);
 	/* ie hax */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
+#comment_click{cursor:pointer}
+#comments{display:none}
+code {
+	margin-left:65px;
+	display:block;
+	padding-bottom:15px !important;
+}
+
 ul#social_links{list-style:none; float:right; margin-right:15px; margin-top:0}
 ul#social_links li{float:left; padding-left: 3px; }
 #about_author{font-size:13px;}
 hr {margin-top:30px; margin-bottom:30px}
 span a{text-decoration:none; color:#fff;}
 a:hover, span.share a:hover{color:#697b80;}
-#search input{background:#000; width:220px; color:#e5786d; text-align:right;}
-footer{clear:both; color: #e5786d; font-size: 11px; width: 960px; text-align: center; padding:20px 10px 20px 10px}
+#search input{ 
+	background: rgba(30, 30, 30, 0.6);
+	background: rgb(30, 30, 30);
+	/* ie hax */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+	width:220px; color:#e5786d; text-align:right; border:none; 	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	opacity:0.9;
+}
+footer{clear:both; color: #e5786d; font-size: 11px; width: 960px; height:40px; display:block; text-align: center; padding:20px 10px 20px 10px}
 a {color:#697b80;}
 h6 a{margin:0; padding-top:10px; padding-bottom:5px; color:#86c6ea; font-size:17px; text-shadow: 2px 2px 2px #000; text-decoration:none; }
 p.about_text{font-family: 'Courier New'; line-height:15px; font-size:12px;}

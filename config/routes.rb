@@ -14,6 +14,7 @@ BlogApp::Application.routes.draw do
   #post "posts/edit/:id" => "posts#edit"
   resources :posts
   devise_for :users
+  match 'comment', :to => 'posts#comment'
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
