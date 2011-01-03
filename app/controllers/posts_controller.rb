@@ -9,6 +9,17 @@ class PostsController < ApplicationController
         @post = Post.find(params[:id])
       end
 
+      def create
+          if request.post?
+            @post = Post.new(params[:post])
+              if @post.save
+                redirect_to "/posts/#{@post.id}/"
+              end
+              else
+                redirect_to "/posts/new"
+          end
+      end
+
       def new
         if request.post?
           @post = Post.new(params[:post])

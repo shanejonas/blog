@@ -9,13 +9,13 @@ BlogApp::Application.routes.draw do
   # Keep in mind you can assign values other than :controller and :action
 
   #get "posts/create" => "posts#create"
-  #post "posts/create" => "posts#create"
+  post "posts/new" => "posts#new"
   #get "posts/edit/:id" => "posts#edit"
   #post "posts/edit/:id" => "posts#edit"
   resources :posts
   devise_for :users
   match 'comment', :to => 'posts#comment'
-
+  
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
