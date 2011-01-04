@@ -3,7 +3,7 @@
 <h5>><%=  link_to post.title, post %></h5>
 <span><%= post.published_on %></span>
 <p>
-<%= raw post.body %>
+<%= post.body.html_safe %>
 </p>
 <span class="share"><small><%= link_to "(View Comments)", post %></small></span>
 </article>

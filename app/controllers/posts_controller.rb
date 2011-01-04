@@ -56,11 +56,15 @@ class PostsController < ApplicationController
             format.html { redirect_to(posts_url) }
         end
 
+
       end
 
       def comment
         Post.find(params[:id]).comments.create(params[:comment])
       end
 
+      def search
+        Post.search(params[:query])
+      end
 
 end
