@@ -15,6 +15,9 @@ span {color:#fff; }
 h1 small{font-size:12px; color:#c0e682}
 pre:before{content: '>'; }
 span.share a{color:#e5786d;}
+hr {clear:both}
+
+small a{float:right; padding-bottom:15px; margin-right:25px;}
 pre:hover::before{content: &lt; color:#697b80;}
 pre {	
 	border-radius:3px;
@@ -36,7 +39,9 @@ code {
 	display:block;
 	padding-bottom:15px !important;
 }
-
+#dsq-new-post h3{color:#fff;}
+.dsq-comment-message{color:#fff;}
+#dsq-comments-title  h3{color:#E5786D}
 ul#social_links{list-style:none; float:right; margin-right:15px; margin-top:0}
 ul#social_links li{float:left; padding-left: 3px; }
 #about_author{font-size:13px;}

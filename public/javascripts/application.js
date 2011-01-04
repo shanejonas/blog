@@ -3,12 +3,28 @@
 //
 jQuery(function ($) {
 
-$('#comment_click').click(function() {
-  $('#comments').slideToggle('slow', function() {
-    // Animation complete.
-    //console.log('slideDown') //debug
-  });
-});     
+  $('#comment_click').click(function() {
+    $('#comments').slideToggle('slow', function() {
+      // Animation complete.
+      //console.log('slideDown') //debug
+    });
+  });     
 
+
+
+//disqus
+//
+  $('#disqus_thread').disqus({
+    domain: "thedevstation",
+    title: document.title,
+    message: $('meta[name=description]').attr('content'),
+    developer: window.location.hostname == "localhost" ? 1 : 0
+  });
+
+
+
+
+
+//end jq
 
 });

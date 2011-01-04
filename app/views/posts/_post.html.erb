@@ -2,31 +2,11 @@
 <article class="jk">
 <h5>><%=  link_to post.title, post %></h5>
 <span><%= post.published_on %></span>
-<%= post.body.html_safe%>
-<span class="share">
-
-<a id="comment_click">(<%= post.comments.length %>) Comments</a> | Share this post via <a href="#">facebook</a> or <a href="#">twitter</a></span>
-
-
-<div id="comments">
-<div id="comment_body">
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-$(document).ready(function(){
-
-    var disqus_url = "http://thedevstation.com/posts/<%= post.id %>";
-
-
-    var disqus_identifier = "<%= post.id %>";
-
-
-
-$.getScript("http://thedevstation.disqus.com/embed.js");
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
+<p>
+<%= raw post.body %>
+</p>
+<span class="share"><small><%= link_to "(View Comments)", post %></small></span>
 </article>
 
-<hr />
+<hr class="shadow" />
 
