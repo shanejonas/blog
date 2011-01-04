@@ -64,7 +64,7 @@ class PostsController < ApplicationController
       end
 
       def search
-        Post.search(params[:query])
+        @posts = Post.search(params[:query])
       end
 
 end
