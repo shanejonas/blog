@@ -14,7 +14,9 @@ span {color:#fff; }
 .shadow{ text-shadow: 2px 2px 2px #000;}
 h1 small{font-size:12px; color:#c0e682}
 pre:before{content: '>'; }
-span.share a{color:#e5786d;}
+span.share a{color:#697b80; opacity:0.6}
+
+span.share a:hover{color:#e5786d !important; opacity:1}
 hr {clear:both}
 
 small a{float:right; padding-bottom:15px; margin-right:25px;}

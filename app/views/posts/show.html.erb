@@ -3,7 +3,7 @@
 <article>
 <h5>><%= @post.title %></h5>
 <span><%= @post.published_on %></span>
-<p><%= @post.body.html_safe%></p>
+<p><%= raw @post.body %></p>
 <hr />
 
 
