@@ -67,4 +67,8 @@ class PostsController < ApplicationController
         @posts = Post.search(params[:query])
       end
 
+      def archive
+        @posts = Post.all
+      end
+
 end

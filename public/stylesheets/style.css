@@ -18,6 +18,10 @@ span.share a{color:#697b80; opacity:0.6}
 #sidebar form{display:inline}
 span.share a:hover{color:#e5786d !important; opacity:1}
 hr {clear:both}
+#archive {margin-left:40px;}
+#archive ul li{margin-top:10px;}
+h4 a{color:#E5786D; text-decoration:none}
+h4 {text-align:center; }
 
 small a{float:right; padding-bottom:15px; margin-right:25px;}
 pre:hover::before{content: &lt; color:#697b80;}

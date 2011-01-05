@@ -1,0 +1,18 @@
+<div id="articles">
+
+<article id="archive">
+<h5>The Dev Station Archive</h5>
+<ul>  
+<% @posts.each do |post| %>
+<li>
+<%= link_to post.title, post %>
+</li>
+<% end %>
+
+<% if @posts.empty? %>
+<li>No posts.</li>
+<% end %>
+
+</ul>
+</article>
+</div>

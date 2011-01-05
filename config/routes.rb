@@ -7,6 +7,7 @@ BlogApp::Application.routes.draw do
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
+  get "posts/archive" => "posts#archive"
   get "posts/search" => "posts#search"
   #get "posts/create" => "posts#create"
   post "posts/new" => "posts#new"
