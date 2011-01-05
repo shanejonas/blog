@@ -1,4 +1,10 @@
 <section id="articles">
+    <%= render :partial => "post", :collection => @posts %>
 
-<%= render :partial => "post", :collection => @posts %>
+    <% if @posts.empty? %>
+          <article>
+            <p> <i> No Search Results Found...</i> </p>
+          </article>
+    <% end %>
+
 </section>
