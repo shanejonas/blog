@@ -1,5 +1,4 @@
 BlogApp::Application.routes.draw do
-  devise_for :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -14,7 +13,10 @@ BlogApp::Application.routes.draw do
   #get "posts/edit/:id" => "posts#edit"
   #post "posts/edit/:id" => "posts#edit"
   resources :posts
-  devise_for :users
+
+  # Users
+  devise_for :users, :controllers => {:registrations => "user/registrations" }
+
   match 'comment', :to => 'posts#comment'
   
   # Sample of named route:
