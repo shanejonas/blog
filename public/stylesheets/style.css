@@ -22,7 +22,8 @@ hr {clear:both}
 #archive ul li{margin-top:10px;}
 h4 a{color:#E5786D; text-decoration:none}
 h4 {text-align:center; }
-
+p.alert, p.notice{width:500px; color:red}
+.bottom{color:#697b80;}
 small a{float:right; padding-bottom:15px; margin-right:25px;}
 pre:hover::before{content: &lt; color:#697b80;}
 pre {	
@@ -53,7 +54,7 @@ ul#social_links li{float:left; padding-left: 3px; }
 #about_author{font-size:13px;}
 hr {margin-top:30px; margin-bottom:30px}
 span a{text-decoration:none; color:#fff;}
-a:hover, span.share a:hover{color:#697b80;}
+a:hover, span.share a:hover{ccolor:#697b80;olor:#697b80;}
 #search input{ 
 	background: rgba(30, 30, 30, 0.6);
 	background: rgb(30, 30, 30);
