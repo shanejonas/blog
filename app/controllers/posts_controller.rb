@@ -2,7 +2,7 @@ class PostsController < ApplicationController
     before_filter :authenticate_user!, :only => [:new, :edit, :update, :destroy]
 
       def index
-        @posts = Post.all
+        @posts = Post.find(:all, :limit => 4, :order => 'created_at DESC')
 
         respond_to do |format|
           format.html
