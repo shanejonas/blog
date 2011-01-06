@@ -54,7 +54,7 @@ ul#social_links li{float:left; padding-left: 3px; }
 #about_author{font-size:13px;}
 hr {margin-top:30px; margin-bottom:30px}
 span a{text-decoration:none; color:#fff;}
-a:hover, span.share a:hover{ccolor:#697b80;olor:#697b80;}
+a:hover, span.share a:hover{color:#697b80}
 #search input{ 
 	background: rgba(30, 30, 30, 0.6);
 	background: rgb(30, 30, 30);

@@ -2,7 +2,6 @@ BlogApp::Application.routes.draw do
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
@@ -13,7 +12,7 @@ BlogApp::Application.routes.draw do
   #get "posts/edit/:id" => "posts#edit"
   #post "posts/edit/:id" => "posts#edit"
   resources :posts
-
+  resources :feeds, :only => [:index]
   # Users
   devise_for :users, :controllers => {:registrations => "user/registrations" }
 

@@ -1,8 +1,10 @@
 
 <article class="jk">
 <h5>><%=  link_to post.title, post %></h5>
-<span><%= post.published_on %></span>
+
+<span>Published <i><%= time_ago_in_words(post.created_at) %></i> ago.</span>
 <p>
+
 <%= post.body.html_safe %>
 </p>
 <span class="share"><small><%= link_to "(View Comments)", post %></small></span>

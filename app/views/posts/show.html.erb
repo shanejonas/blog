@@ -2,7 +2,7 @@
 <section id="articles">
 <article>
 <h5>><%= @post.title %></h5>
-<span><%= @post.published_on %></span>
+<span>Published <i><%= time_ago_in_words(@post.created_at) %></i> ago.</span>
 <p><%= raw @post.body %></p>
 <hr />
 

@@ -1,7 +1,8 @@
+<%=  auto_discovery_link_tag :atom, posts_url(:format=>'atom'), :title=>'The Dev Station' %>
+
 <section id="articles">
 
-
-<%= render :partial => "post", :collection => @posts %>
+  <%= render :partial => "post", :collection => @posts %>
 
 <h4><a href="/posts/archive">(Visit Archive)</a></h4>
 </section>
