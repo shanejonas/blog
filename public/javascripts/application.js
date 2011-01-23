@@ -10,6 +10,13 @@ jQuery(function ($) {
     });
   });     
 
+  $('#disqus_thread').disqus({
+    domain: "thedevstation",
+    title: document.title,
+    message: $('meta[name=description]').attr('content'),
+    developer: window.location.hostname == "localhost" ? 1 : 0
+  });
+
 //end jq
 
 });
