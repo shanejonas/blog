@@ -1,4 +1,5 @@
 body{background: url('/images/grid_bg.gif'); background-color:#303030; margin: 0 auto; font-family: 'Helvetica'; width: 960px; line-height:100%;}
+a{border:none}
 h1, h1 a{color: #e5786d; text-shadow: 2px 2px 2px #000; font-family: 'Courier New'; font-weight:900; text-transform:uppercase; font-size:60px; margin: 0; padding-top:25px; padding-bottom:35px; text-decoration: none;}
 .alpha60 {
 }
