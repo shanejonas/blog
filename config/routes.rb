@@ -1,5 +1,17 @@
 BlogApp::Application.routes.draw do
 
+  get "portfolio/thesis" => "portfolio#thesis"
+
+  get "portfolio/devstation" => "portfolio#devstation"
+
+  get "portfolio/resume" => "portfolio#resume"
+
+  get "portfolio/musicbook" => "portfolio#musicbook"
+
+  get "portfolio/gallery" => "portfolio#musicbook"
+
+  get "portfolio/bomb" => "portfolio#bomb"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
   # Sample of regular route:

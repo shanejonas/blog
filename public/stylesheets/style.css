@@ -26,6 +26,105 @@ p.alert, p.notice{width:500px; color:red}
 .bottom{color:#697b80;}
 small a{float:right; padding-bottom:15px; margin-right:25px;}
 pre:hover::before{content: &lt; color:#697b80;}
+.bomb {
+  margin-top:-50px;
+  padding:0px;
+}
+ul.resume_ul{
+  color: #C0E682;
+  list-style: none;
+}
+ul.resume_ul li{
+  margin-top:2px;
+  
+}
+
+/* charts */
+li.ruby{
+  width: 85%;
+  background-color: #697B80;
+}
+li.javascript{
+  width: 85%;
+  background-color: #697B80;
+}
+li.php{
+  width: 80%;
+  background-color: #697B80;
+}
+li.mysql{
+  width: 80%;
+  background-color: #697B80;
+}
+li.actionscript{
+  width: 78%;
+  background-color: #697B80;
+}
+li.html5{
+  width: 80%;
+  background-color: #697B80;
+}
+li.css3{
+  width: 75%;
+  background-color: #697B80;
+}
+li.perl{
+  width: 45%;
+  background-color: #697B80;
+}
+li.cplusplus{
+  width: 45%;
+  background-color: #697B80;
+}
+li.mvc{
+  width: 85%; 
+  background-color: #697B80;
+}
+li.oop{
+  width: 85%; 
+  background-color: #697B80;
+}
+li.ror{
+  width: 75%; 
+  background-color: #697B80;
+}
+li.flex4{
+  width: 75%; 
+  background-color: #697B80;
+}
+li.backbone{
+  width: 75%; 
+  background-color: #697B80;
+}
+li.underscore{
+  width: 75%; 
+  background-color: #697B80;
+}
+li.jquery{
+  width: 70%;
+  background-color: #697B80;
+}
+li.limonade{
+  width: 70%;
+  background-color: #697B80;
+}
+li.fuelphp{
+  width: 70%;
+  background-color: #697B80;
+}
+li.sinatra{
+  width: 70%;
+  background-color: #697B80;
+}
+li.rspec{
+  width: 55%;
+  background-color: #697B80;
+}
+
+
+span.blue{
+  color: #86C6EA;
+}
 pre {	
 	border-radius:3px;
 	-webkit-border-radius:3px;
@@ -45,6 +144,22 @@ code {
 	margin-left:45px;
 	display:block;
 	padding-bottom:15px !important;
+}
+section#portfolio ul li a:hover{
+  color: white;
+}
+div#opma{
+  padding:15px;
+}
+.spa{
+  font-size:14px;
+}
+h2.p_head{
+  color: white;
+}
+.techlist{
+
+  color: #C0E682;
 }
 #dsq-new-post h3{color:#fff;}
 .dsq-comment-message{color:#fff;}
@@ -71,5 +186,3 @@ footer{clear:both; color: #e5786d; font-size: 11px; width: 960px; height:40px; d
 a {color:#697b80;}
 h6 a{margin:0; padding-top:10px; padding-bottom:5px; color:#86c6ea; font-size:17px; text-shadow: 2px 2px 2px #000; text-decoration:none; }
 p.about_text{font-family: 'Courier New'; line-height:15px; font-size:12px;}
-
-
