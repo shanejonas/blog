@@ -2,7 +2,7 @@ body{background: url('/images/grid_bg.gif'); background-color:#303030; margin: 0
 h1, h1 a{color: #e5786d; text-shadow: 2px 2px 2px #000; font-family: 'Courier New'; font-weight:900; text-transform:uppercase; font-size:60px; margin: 0; padding-top:25px; padding-bottom:35px; text-decoration: none;}
 .alpha60 {
 }
-header h1{display:inline; float:left; }
+header h1{display:inline; float:left; width: 600px; }
 label {color:#86C6EA}
 #articles {width: 650px; display:inline; float:left; clear:both;}
 article {margin-top:0;text-shadow: 2px 2px 2px #000; }
@@ -164,7 +164,7 @@ h2.p_head{
 #dsq-new-post h3{color:#fff;}
 .dsq-comment-message{color:#fff;}
 #dsq-comments-title  h3{color:#E5786D}
-ul#social_links{list-style:none; float:right; margin-right:15px; margin-top:0}
+ul#social_links{list-style:none; float:right; padding-top:8px; margin-right:15px; margin-top:0}
 ul#social_links li{float:left; padding-left: 3px; }
 #about_author{font-size:13px;}
 hr {margin-top:30px; margin-bottom:30px}
