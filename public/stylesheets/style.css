@@ -4,11 +4,11 @@ h1, h1 a{color: #e5786d; text-shadow: 2px 2px 2px #000; font-family: 'Courier Ne
 }
 header h1{float:left;}
 label {color:#86C6EA}
-#articles {width: 650px; float:left;}
+#articles {width: 650px; float:left; clear:both;}
 article {margin-top:0;text-shadow: 2px 2px 2px #000;}
 article h5, article h5 a{margin:0; padding-top:10px; font-family: 'Courier New'; padding-bottom:5px; color:#86c6ea; font-size:25px; text-shadow: 2px 2px 2px #000; text-decoration:none; }
 article p{color:#c0e682; text-shadow: 2px 2px 2px #000; width:600px; }
-#sidebar {float:left; padding-left:10px; color:#fff; width:290px;}
+#sidebar {float:left; padding-left:10px; color:#fff; width:290px; }
 #sidebar img{float:left; padding-right:8px;}
 span {color:#fff; }
 .shadow{ text-shadow: 2px 2px 2px #000;}
