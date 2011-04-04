@@ -120,6 +120,14 @@ li.rspec{
   width: 55%;
   background-color: #697B80;
 }
+li.bdd{
+  width: 55%;
+  background-color: #697B80;
+}
+li.tdd{
+  width: 55%;
+  background-color: #697B80;
+}
 
 
 span.blue{
@@ -158,7 +166,6 @@ h2.p_head{
   color: white;
 }
 .techlist{
-
   color: #C0E682;
 }
 #dsq-new-post h3{color:#fff;}
