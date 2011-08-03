@@ -41,16 +41,18 @@ ul.resume_ul li{
 }
 
 /* charts */
+
+/* languages */
 li.ruby{
   width: 85%;
   background-color: #697B80;
 }
 li.javascript{
-  width: 85%;
+  width: 95%;
   background-color: #697B80;
 }
 li.php{
-  width: 80%;
+  width: 90%;
   background-color: #697B80;
 }
 li.mysql{
@@ -58,53 +60,51 @@ li.mysql{
   background-color: #697B80;
 }
 li.actionscript{
-  width: 78%;
+  width: 85%;
   background-color: #697B80;
 }
 li.html5{
-  width: 80%;
+  width: 90%;
   background-color: #697B80;
 }
 li.css3{
-  width: 75%;
+  width: 85%;
   background-color: #697B80;
 }
 li.perl{
-  width: 45%;
+  width: 65%;
   background-color: #697B80;
 }
 li.cplusplus{
   width: 45%;
   background-color: #697B80;
 }
+
+/* Design Patterns & Concepts */
 li.mvc{
-  width: 85%; 
+  width: 90%; 
   background-color: #697B80;
 }
 li.oop{
   width: 85%; 
   background-color: #697B80;
 }
-li.ror{
-  width: 75%; 
+li.bdd{
+  width: 80%;
   background-color: #697B80;
 }
+li.tdd{
+  width: 80%;
+  background-color: #697B80;
+}
+
+/* Frameworks */
 li.flex4{
   width: 75%; 
   background-color: #697B80;
 }
-li.backbone{
-  width: 75%; 
-  background-color: #697B80;
-}
-li.underscore{
-  width: 75%; 
-  background-color: #697B80;
-}
-li.jquery{
-  width: 70%;
-  background-color: #697B80;
-}
+
+/* php specific */
 li.limonade{
   width: 70%;
   background-color: #697B80;
@@ -113,20 +113,36 @@ li.fuelphp{
   width: 70%;
   background-color: #697B80;
 }
+
+/* Javascript specific */
+li.backbone{
+  width: 90%; 
+  background-color: #697B80;
+}
+li.underscore{
+  width: 90%; 
+  background-color: #697B80;
+}
+li.jquery{
+  width: 90%;
+  background-color: #697B80;
+}
+li.jasmine{
+  width: 80%;
+  background-color: #697B80;
+}
+
+/* Ruby specific */
+li.ror{
+  width: 75%; 
+  background-color: #697B80;
+}
 li.sinatra{
   width: 70%;
   background-color: #697B80;
 }
 li.rspec{
-  width: 55%;
-  background-color: #697B80;
-}
-li.bdd{
-  width: 55%;
-  background-color: #697B80;
-}
-li.tdd{
-  width: 55%;
+  width: 60%;
   background-color: #697B80;
 }
 
