@@ -25,6 +25,7 @@ BlogApp::Application.routes.draw do
   #post "posts/edit/:id" => "posts#edit"
   resources :posts
   resources :feeds, :only => [:index]
+
   # Users
   devise_for :users, :controllers => {:registrations => "user/registrations" }
 

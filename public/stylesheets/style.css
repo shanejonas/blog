@@ -3,7 +3,17 @@ a{border:none}
 h1, h1 a{color: #e5786d; text-shadow: 2px 2px 2px #000; font-family: 'Courier New'; font-weight:900; text-transform:uppercase; font-size:60px; margin: 0; padding-top:25px; padding-bottom:35px; text-decoration: none;}
 .alpha60 {
 }
-header h1{display:inline; float:left; width: 600px; }
+header h1{ 
+  width: auto;
+  font-family: 'VT323', arial, serif; 
+  font-size: 134px;
+  letter-spacing: -18px;
+  opacity: 0.5;
+  text-shadow: 3px 3px 1px #000;
+  color: rgb(68,168,235);
+  float:left;
+}
+
 label {color:#86C6EA}
 #articles {width: 650px; display:inline; float:left; clear:both;}
 article {margin-top:0;text-shadow: 2px 2px 2px #000; }
